@@ -1,0 +1,46 @@
+/* 
+    Document   : eOSCENonMobile
+    Created on : 19/03/2013, 2:26:49 PM
+    Author     : alandow
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    font-family: Verdana,Arial,sans-serif;
+    /*             font-size: 1.1em;    */
+}
+body{
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;    
+}
+
+h2{
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 2em; 
+}
+
+table{
+    width: 90%;
+    text-align: left;
+}
+tr {
+    text-align: left;
+
+}
+tr:nth-child(odd) {background: #CCC}
+tr:nth-child(even) {background: #FFF}
+th{
+    text-align: left;
+}
+
+.inp-checkbox+label {
+    width:16px; 
+    height:16px; 
+    vertical-align:middle;
+}​
+
+

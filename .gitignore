@@ -1,0 +1,6 @@
+.git.bak
+imagegrab
+/media
+nbproject
+
+*.DS_Store

@@ -1,0 +1,1 @@
+reports_detail_label
