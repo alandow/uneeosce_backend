@@ -1,0 +1,11 @@
+To install UNE eOSCE backend:
+
+1) copy all files into a webserver that
+- runs php 5.3 or higher
+- has GD and crypto libraries installed
+- has ffmpeg binaries installed (if uploading video)
+
+2) create a database, populate using eOSCE_database.sql
+3) Rename config.inc.example.php to config.inc.php and modify to suit
+4) In the 'users' table, change the password for the user 'admin' to the md5 hash of $CFG->password_salt+some password. eg if you want the password to be 'password' and $CFG->password_salt in config.inc.php is 'salt' then the password stored in the database should be the md5 hash of 'saltpassword'. In php: md5($CFG->password_salt . $password);
+Alternately if you have integrated into LDAP/Active Directory then change the 'admin' username field to a valid username, the type to 'ad' and set the password to null.
