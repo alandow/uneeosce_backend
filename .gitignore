@@ -4,3 +4,4 @@ imagegrab
 nbproject
 
 *.DS_Store
+/backend/config.inc.php
